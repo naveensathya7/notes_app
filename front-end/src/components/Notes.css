@@ -1,0 +1,33 @@
+.todo-user-input {
+    background-color: white;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+}
+.notes-input{
+    width:75%
+}
+.item-container{
+    border: 1px solid #5e6961;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 600;
+    background-color: rgba(192, 192, 192, 0.5);
+}
+.notes-bg{
+    background-image: url('../images/large-bg.png');
+    height: 100vh;
+    background-size: cover;
+    font-family: 'Roboto';
+}
+@media (max-width:560px) {
+    .notes-bg{
+        background-image: url('../images/small-bg.png');
+        background-size:cover;
+        height: 100vh;
+    }
+}
